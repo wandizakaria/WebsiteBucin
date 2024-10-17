@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: rgb(250, 110, 110);
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1px;
+    
+}
+
+button {
+    background-color:  rgb(250, 110, 110);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    text-decoration: none;
+    outline: none;
+}
+.white-text {
+    color: white;
+    text-decoration: none; /* Menghilangkan garis bawah jika diperlukan */
+}
+
+.white-text:hover {
+    color: lightgray; /* Jika Anda ingin mengubah warna saat dihover */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+
+
+
+}
+
+.bg {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    max-height: 0;
+    max-width: 0;
+    z-index: -1;
+}
+
+.content {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    background-color:  rgb(250, 110, 110);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    text-decoration: none;
+    outline: none;
+    padding: 50;
+    align-content: center;
+    font-style: normal;
+    font-size: 20px;
+}
+ 
+audio{
+    margin: 50px;
+}
